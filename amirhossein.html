@@ -10,7 +10,7 @@
     />
 
 
-    <link rel="icon" href="./android-chrome-512x512.png">
+    <link rel="icon" href="./images/android-chrome-512x512.png">
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -24,43 +24,45 @@
     <link rel="stylesheet" href="./styles/amirhossein.css">
     <script src="https://kit.fontawesome.com/9dfa11b859.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <div class="">
-      <nav class="navbar navbar-dark shadow-sm">
-        <i href="#" class="fa-brands fa-slack text-warning"  style="font-size: 40px;">amirhossein</i>
-      <a href="#" class="ml-20%" styles="font-size: 25px margin-right: ">
-        <I>home</I> 
-      </a>
-      <a href="" class="dropdown dropdown-toggle  data-bs-toggle" styles="font-size: 25px">
-        <i>shop</i>
-      </a>
-      <div class="dropdown-menu">
-        <a href="" class="dropdown-item">adventure books</a>
-        <a href="" class="dropdown-item">story books</a>
-        <a href="" class="dropdown-item">romantice books</a>
-        <a href="" class="dropdown-item">popular books</a>
-        <a href="" class="dropdown-item">book reader</a>
-
-      </div>
-      <a href="" class="" styles="font-size: 25px">
-        <I>talk to us</i>
-      </a>
-      <a href="" class="" styles="font-size: 25px">
-        <i>customers</i>
-      </a>
-
-        <form action="" class="form-inline">
-          <div class="input-group">
-          <input class="rounded" placeholder="search">
-            <div>
-             <button class="btn btn-outline-primary">
-               <i class="fa-solid fa-magnifying-glass rounded"></i>
-             </button>
-            </div>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    
+    <nav class="navbar navbar-dark bg-dark shadow-sm navbar-expand-lg fixed-top">
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="./amirhossein.html"><i class="fa-brands fa-slack text-warning mx-3"  style="font-size: 40px;">amirhossein</i></a>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav mr-auto my-2">
+        <li class="nav-item mx-4">
+          <a href="./amirhossein.html" class="nav-link text-secondary">home</a>
+        </li>
+        <li class="nav-item mx-4 dropdown">
+          <a href="./" class=" nav-link text-secondary dropdown-toggle" data-bs-toggle="dropdown">shop</a>
+          <div class="dropdown-menu">
+            <a href="" class="dropdown-item">story book </a>
+            <a href="" class="dropdown-item">adventure book</a>
+            <a href="" class="dropdown-item">romantice book</a>
           </div>
-        </form>
-      </nav>
+        </li>
+        <li class="nav-item mx-4">
+          <a href="#footer" class="nav-link text-secondary">support</a>
+        </li>
+        <li class="nav-item mx-4">
+          <a href="#footer" class="nav-link text-secondary">customers</a>
+        </li>
+      </ul>
+      <form class="form-inline rounded">
+        <div class="input-group">
+          <input type="text" placeholder="search" class="form-control">
+          <div class="input-group-append">
+            <button class="btn btn-outline-primary">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
+    </nav>
     
     
 
@@ -70,11 +72,11 @@
           <h2><i>just........a book<nav class="text-danger">...........love</nav></i></h2>
           <h1><i>.........best place for found<div class="text-warning">book......</div></i></h1>
           <a href="" class="btn btn-secondary pr-3 pl-3"><i>customers club</i></a>
-          <a href="" class="btn btn-dark pr-3 pl-3"><i>talk to us</i></a>
+          <a href="" class="btn btn-dark pr-3 pl-3"><i>talk ot us</i></a>
         
         </div>
         <div class="col-4">
-          <img src="pngtree-watercolor-library-book-clip-art-png-image_10285452.png" class="d-none d-md-block">
+          <img src="images/pngtree-watercolor-library-book-clip-art-png-image_10285452.png" class="d-none d-md-block">
         </div>
       </div>
     </DIV>
@@ -119,49 +121,60 @@
         </div>
         <div class="row my-5">
           <div class="col-lg-4 text-center">
-            <img src="Animal-Farm-3.jpg" alt="" class="img-thumbnail">
+            <img src="./images/Animal-Farm-3.jpg" alt="" class="img-thumbnail">
             <h1 class="text-info m-3 ">political book</h1>
             <p class="text-muted my-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet adipi</p>
           </div>
           <div class="col-lg-4 text-center">
-            <img src="Atomic-Habits.webp" alt="" class="img-thumbnail">
+            <img src="/images/Atomic-Habits.webp" alt="" class="img-thumbnail">
             <h1 class="text-info m-3 ">adventure book</h1>
              <p class="text-muted my-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet adipi</p>
           </div>
           <div class="col-lg-4 text-center">
-            <img src="2-1.jpg" alt="" class="img-thumbnail">
+            <img src="./images/2-1.jpg" alt="" class="img-thumbnail">
             <h1 class="text-info m-3 ">romantice book</h1>
             <p class="text-muted my-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet adipi</p>
           </div>
         </div>
       </div>
     </section>
+    <div id="footer" class="container-fluid">
+      <footer  class="row bg-secondary py-5">
+        <div class="col-md-4 text-center">
+          <I> <h1 class="text-dark my-5">
+            talk to us
+          </h1></I>
 
-    <footer class=" bg-secondary py-5">
-      <div class="container text-center">
-        <h class="display-3">
-          <a href="" class="text-warning">
-            <i href="#" class="fa-brands fa-slack text-warning"  style="font-size: 40px;">amirhossein</i>
-          </a>
-        </h>
-        <h2 class="text-white">there is uncountable book you can buy</h2>
-        <div class="my-5">
-          <a>
-            <i class="fa-brands fa-instagram mx-5 text-danger" style="font-size: 40px"></i>
-          </a>
-          <a>
-            <i class="fa-brands fa-twitter mx-5 text-primary" style="font-size: 40px"></i>
-          </a>
-          <a>
-            <i class="fa-brands fa-facebook mx-5 text-info" style="font-size: 40px"></i>
-          </a>
-          <a>
-            <i class="fa-brands fa-youtube mx-5 text-danger" style="font-size: 40px"></i>
-          </a>
-          <h1 class="text-dark m-4">made by amirhossein     ..........       @2023</h1>
+
+          <br><br>
+          <h2 class="text-dark"><i>Tel ....... 09100000000   </i></h2>
         </div>
-      </div>
-    </footer>
+        <div class="col-md-8 text-center">
+          <h class="display-3">
+            <a href="" class="talktous text-warning">
+              <i href="#" class="fa-brands fa-slack text-warning"  style="font-size: 40px;">amirhossein</i>
+            </a>
+          </h>
+           <h2 class="text-white">there is uncountable book you can buy</h2>
+          <div class="my-5">
+            <a>
+              <i class="fa-brands fa-instagram mx-5 text-danger" style="font-size: 40px"></i>
+            </a>
+            <a>
+              <i class="fa-brands fa-twitter mx-5 text-primary" style="font-size: 40px"></i>
+            </a>
+            <a>
+              <i class="fa-brands fa-facebook mx-5 text-info" style="font-size: 40px"></i>
+            </a>
+            <a>
+              <i class="fa-brands fa-youtube mx-5 text-danger" style="font-size: 40px"></i>
+            </a>
+            <h1 class="text-dark m-4">made by amirhossein     ..........       @2023</h1>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
 
 
 

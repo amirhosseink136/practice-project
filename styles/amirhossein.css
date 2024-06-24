@@ -1,4 +1,6 @@
-*{
-margin-right: 0px;
+* ::selection{
+  background-color: green;
+
 
 }
+ 
